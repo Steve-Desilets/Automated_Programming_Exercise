@@ -1,4 +1,11 @@
-# Command Line Applications - Benchmarking Project
+# Automated Programming Project
+
+For the project contained within this repository, we put ourselves in the position of a data scientist working for a company whose leadership team is interested in evaluating whether it is over-paying the data scientists, data engineers, and data analysts at the company.  Specifically, the company's leadership points out that recent advancements in natural language processing (NLP) have led to the release of many new tools that can write or edit entire programs for data scientists.  Given that such tools have been streaming onto the market, the company's leadership wonders whether the company still truly needs to be paying $120,000 and $175,000 annual salaries to junior Golang programmers and senior software engineers, respectively.  The company's leadership requests that the data scientist learn more about three newly developed automated programming tools: 1) an Automated Code Generator , 2) an AI-Assisted Programming Tool, and 3) a large language model (LLM) capable of generating code (AI-Generated code). The data scientist must report to the company's leadership about the effectiveness of each of these tools and the degree to which the company may be able to save money on programmer salaries due to these tools automating the work associated with these positions.
+
+
+
+
+
 
 For the project contained within this repository, we put ourselves in the position of a data scientist working for a company that is interested in whether it should conduct its data science operations using Go, Python, or R. To help leadership make this decision, the company's leadership asks the data scientist to conduct an experiment focused on assessing the computational efficiency and statistical accuracy of each of these three languages via benchmark testing. Specifically, the data scientist must create programs that will run from the Windows Command Prompt Application, import a CSV file containing a 7-variable dataset, compute summary statistics for each of the variables, and print the summary statistics to an output text file. The data scientist must confirm that R, Python, and Go all correctly calculate the correct values for the summary statistics and must compare how quickly each of these three languages completes those calculations.
 
