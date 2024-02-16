@@ -2,12 +2,21 @@
 
 For the project contained within this repository, we put ourselves in the position of a data scientist working for a company whose leadership team is interested in evaluating whether it is over-paying the data scientists, data engineers, and data analysts at the company.  Specifically, the company's leadership points out that recent advancements in natural language processing (NLP) have led to the release of many new tools that can write or edit entire programs for data scientists.  Given that such tools have been streaming onto the market, the company's leadership wonders whether the company still truly needs to be paying $120,000 and $175,000 annual salaries to junior Golang programmers and senior software engineers, respectively.  The company's leadership requests that the data scientist learn more about three newly developed automated programming tools: 1) an Automated Code Generator , 2) an AI-Assisted Programming Tool, and 3) a large language model (LLM) capable of generating code (AI-Generated code). The data scientist must report to the company's leadership about the effectiveness of each of these tools and the degree to which the company may be able to save money on programmer salaries due to these tools automating the work associated with these positions.
 
+For this evaluation, the data scientist focuses on leveraging these three automated programming tools to calculate linear regression models for each of the four Anscombe Quartet datasets.  For the first (Automated Code Generator) phase of the experiment, the data scientist examines the extent to which he's able to leverage the Golang Generate command to write the regression-calculating program.  For the second (AI-Assisted Programming) phase of the experiment, the data scientist evaluates the extent to which the Github Copilot application is able to improve the performance of a previously written Golang program focused on calculating regression models for Anscombe Quartet data (Desilets 2024).  For the third (AI-Generated Code) phase of the experiment, the data scientist requests that ChatGPT write the entire program for him and saves the original text of the conversation with the LLM in this repository as a separate text file. For each of these three automated programming methods, the data scientist also performs 100 iterations of the regression-calculating experiments and records the runtime for each experimental trial.  The data scientist then prints the total and average runtime for these 100 experimental trials to an output text file - each of which is included within this repository.
+
+[INSERT MODEL 1 RESULTS]
+
+[INSERT MODEL 2 RESULTS]
+
+[INSERT MODEL 3 RESULTS]
+
+[INSERT MODEL 4 RESULTS]
 
 
+References
 
+Desilets, Steve. 2024. "Benchmarking Project / GoBenchmarkingCode.go". Github. https://github.com/Steve-Desilets/Benchmarking-Project/blob/main/GoBenchmarkingCode.go 
 
-
-For the project contained within this repository, we put ourselves in the position of a data scientist working for a company that is interested in whether it should conduct its data science operations using Go, Python, or R. To help leadership make this decision, the company's leadership asks the data scientist to conduct an experiment focused on assessing the computational efficiency and statistical accuracy of each of these three languages via benchmark testing. Specifically, the data scientist must create programs that will run from the Windows Command Prompt Application, import a CSV file containing a 7-variable dataset, compute summary statistics for each of the variables, and print the summary statistics to an output text file. The data scientist must confirm that R, Python, and Go all correctly calculate the correct values for the summary statistics and must compare how quickly each of these three languages completes those calculations.
 
 The Batch file within this repository can be called by the Windows Command Prompt Application to call the Python, R, and Go code (also contained within this repository) to execute the benchmark testing experiment described above.  We see that Go, Python, and R were able to successfully calculate the correct values for the summary statistics (including minimum, maximum and mean) for each of the seven variables in the CSV input dataset.  Each of the three programming languages also conducted 100 iterations of these calculations, so that we could gain a representative sample of benchmark test trial times for each programming language.  The three programs printed their summary statistics calculations, as well as their eperimental runtimes to the output text files contained within this repository.
 
